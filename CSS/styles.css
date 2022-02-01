@@ -39,43 +39,24 @@ width: 2%;
 
 .top-conteiner {
   background-color: #D9D7F1;
-  position: relative;
-  padding-top: 100px;
+
 }
 .middle-conteiner {
  background-color: #FFC286;
 }
 .bottom-conteiner {
-  background-color: #D9D7F1;
-}
-
-
-.supertop-conteiner {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
-}
-.supermiddle-conteiner {
- background-color: #FFAB4C;
- width: 200px;
- height: 200px;
-}
-
-.superbottom-conteiner {
-  background-color: #AA14F0;
-  width: 200px;
-  height: 200px;
+  background-color: white;
 }
 
 .top-cloud{
   position: absolute;
   right: 300px;
-  top: 50px;
+
 }
 .bottom-cloud{
   position: absolute;
 left: 300px;
-bottom: 300px;
+
 }
 .Leche{
   position: relative;
@@ -98,3 +79,14 @@ left: 0px;
 .center {
   text-align: center;
 }
+
+.right{
+  position: relative;
+  right:  50px;
+  }
+
+  .left{
+    position: relative;
+    left:  50px;
+    }
+
