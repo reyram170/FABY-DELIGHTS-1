@@ -3,34 +3,44 @@ body{
 }
 body{
   margin: 0;
+  text-align: center;
+  font-family: "Merriweather",serif;
 }
 h1{
+  margin-top: 0;
   color: #544179;
+    font-family: "Merriweather",serif;
 }
 h2{
   color: #544179;
+  font-family: 'Montez', cursive
 }
 h3{
   color: #544179;
+  font-family: 'Montserrat', sans-serif;
 }
 h4{
   color: #544179;
+  font-family: 'Montserrat', sans-serif;
 }
 em{
   color: #544179;
+    font-family: "Merriweather",serif;
 }
 
 hr {
 background-color: white;
 border-style: none;
 border-top-style: dotted;
-border-color: greey;
+border-color: grey;
 border-width: 3px;
 width: 2%;
 }
 
 .top-conteiner {
   background-color: #D9D7F1;
+  position: relative;
+  padding-top: 100px;
 }
 .middle-conteiner {
  background-color: #FFC286;
@@ -55,4 +65,36 @@ width: 2%;
   background-color: #AA14F0;
   width: 200px;
   height: 200px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+left: 300px;
+bottom: 300px;
+}
+.Leche{
+  position: relative;
+left: 50px;
+}
+
+.Limon{
+  position: relative;
+left: 50px;
+}
+
+.Uva{
+  position: relative;
+left: 50px;
+}
+.Uva1{
+  position: relative;
+left: 0px;
+}
+.center {
+  text-align: center;
 }
